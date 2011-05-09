@@ -1,0 +1,310 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		160BF59B1378351A0087D93D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 160BF59A1378351A0087D93D /* UIKit.framework */; };
+		160BF59D1378351A0087D93D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 160BF59C1378351A0087D93D /* Foundation.framework */; };
+		160BF59F1378351A0087D93D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 160BF59E1378351A0087D93D /* CoreGraphics.framework */; };
+		160BF5A51378351A0087D93D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 160BF5A31378351A0087D93D /* InfoPlist.strings */; };
+		160BF5A81378351A0087D93D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 160BF5A71378351A0087D93D /* main.m */; };
+		160BF5AB1378351A0087D93D /* KIDPediaAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 160BF5AA1378351A0087D93D /* KIDPediaAppDelegate.m */; };
+		160BF5AF1378351A0087D93D /* KIDPediaAppDelegate_iPhone.m in Sources */ = {isa = PBXBuildFile; fileRef = 160BF5AE1378351A0087D93D /* KIDPediaAppDelegate_iPhone.m */; };
+		160BF5B21378351A0087D93D /* MainWindow_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 160BF5B01378351A0087D93D /* MainWindow_iPhone.xib */; };
+		160BF5B61378351A0087D93D /* KIDPediaAppDelegate_iPad.m in Sources */ = {isa = PBXBuildFile; fileRef = 160BF5B51378351A0087D93D /* KIDPediaAppDelegate_iPad.m */; };
+		160BF5B91378351A0087D93D /* MainWindow_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 160BF5B71378351A0087D93D /* MainWindow_iPad.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		160BF5961378351A0087D93D /* KIDPedia.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KIDPedia.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		160BF59A1378351A0087D93D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		160BF59C1378351A0087D93D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		160BF59E1378351A0087D93D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		160BF5A21378351A0087D93D /* KIDPedia-Info.plist */ = {isa = PBXFileReference; path = "KIDPedia-Info.plist"; sourceTree = "<group>"; };
+		160BF5A41378351A0087D93D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		160BF5A61378351A0087D93D /* KIDPedia-Prefix.pch */ = {isa = PBXFileReference; path = "KIDPedia-Prefix.pch"; sourceTree = "<group>"; };
+		160BF5A71378351A0087D93D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		160BF5A91378351A0087D93D /* KIDPediaAppDelegate.h */ = {isa = PBXFileReference; path = KIDPediaAppDelegate.h; sourceTree = "<group>"; };
+		160BF5AA1378351A0087D93D /* KIDPediaAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KIDPediaAppDelegate.m; sourceTree = "<group>"; };
+		160BF5AD1378351A0087D93D /* KIDPediaAppDelegate_iPhone.h */ = {isa = PBXFileReference; name = KIDPediaAppDelegate_iPhone.h; path = iPhone/KIDPediaAppDelegate_iPhone.h; sourceTree = "<group>"; };
+		160BF5AE1378351A0087D93D /* KIDPediaAppDelegate_iPhone.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = KIDPediaAppDelegate_iPhone.m; path = iPhone/KIDPediaAppDelegate_iPhone.m; sourceTree = "<group>"; };
+		160BF5B11378351A0087D93D /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = iPhone/en.lproj/MainWindow_iPhone.xib; sourceTree = "<group>"; };
+		160BF5B41378351A0087D93D /* KIDPediaAppDelegate_iPad.h */ = {isa = PBXFileReference; name = KIDPediaAppDelegate_iPad.h; path = iPad/KIDPediaAppDelegate_iPad.h; sourceTree = "<group>"; };
+		160BF5B51378351A0087D93D /* KIDPediaAppDelegate_iPad.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = KIDPediaAppDelegate_iPad.m; path = iPad/KIDPediaAppDelegate_iPad.m; sourceTree = "<group>"; };
+		160BF5B81378351A0087D93D /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = iPad/en.lproj/MainWindow_iPad.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		160BF5931378351A0087D93D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				160BF59B1378351A0087D93D /* UIKit.framework in Frameworks */,
+				160BF59D1378351A0087D93D /* Foundation.framework in Frameworks */,
+				160BF59F1378351A0087D93D /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		160BF58B1378351A0087D93D = {
+			isa = PBXGroup;
+			children = (
+				160BF5A01378351A0087D93D /* KIDPedia */,
+				160BF5991378351A0087D93D /* Frameworks */,
+				160BF5971378351A0087D93D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		160BF5971378351A0087D93D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				160BF5961378351A0087D93D /* KIDPedia.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		160BF5991378351A0087D93D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				160BF59A1378351A0087D93D /* UIKit.framework */,
+				160BF59C1378351A0087D93D /* Foundation.framework */,
+				160BF59E1378351A0087D93D /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		160BF5A01378351A0087D93D /* KIDPedia */ = {
+			isa = PBXGroup;
+			children = (
+				160BF5A91378351A0087D93D /* KIDPediaAppDelegate.h */,
+				160BF5AA1378351A0087D93D /* KIDPediaAppDelegate.m */,
+				160BF5AC1378351A0087D93D /* iPhone */,
+				160BF5B31378351A0087D93D /* iPad */,
+				160BF5A11378351A0087D93D /* Supporting Files */,
+			);
+			path = KIDPedia;
+			sourceTree = "<group>";
+		};
+		160BF5A11378351A0087D93D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				160BF5A21378351A0087D93D /* KIDPedia-Info.plist */,
+				160BF5A31378351A0087D93D /* InfoPlist.strings */,
+				160BF5A61378351A0087D93D /* KIDPedia-Prefix.pch */,
+				160BF5A71378351A0087D93D /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		160BF5AC1378351A0087D93D /* iPhone */ = {
+			isa = PBXGroup;
+			children = (
+				160BF5AD1378351A0087D93D /* KIDPediaAppDelegate_iPhone.h */,
+				160BF5AE1378351A0087D93D /* KIDPediaAppDelegate_iPhone.m */,
+				160BF5B01378351A0087D93D /* MainWindow_iPhone.xib */,
+			);
+			name = iPhone;
+			sourceTree = "<group>";
+		};
+		160BF5B31378351A0087D93D /* iPad */ = {
+			isa = PBXGroup;
+			children = (
+				160BF5B41378351A0087D93D /* KIDPediaAppDelegate_iPad.h */,
+				160BF5B51378351A0087D93D /* KIDPediaAppDelegate_iPad.m */,
+				160BF5B71378351A0087D93D /* MainWindow_iPad.xib */,
+			);
+			name = iPad;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		160BF5951378351A0087D93D /* KIDPedia */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 160BF5BC1378351A0087D93D /* Build configuration list for PBXNativeTarget "KIDPedia" */;
+			buildPhases = (
+				160BF5921378351A0087D93D /* Sources */,
+				160BF5931378351A0087D93D /* Frameworks */,
+				160BF5941378351A0087D93D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KIDPedia;
+			productName = KIDPedia;
+			productReference = 160BF5961378351A0087D93D /* KIDPedia.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		160BF58D1378351A0087D93D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = "imobdev Technologies";
+			};
+			buildConfigurationList = 160BF5901378351A0087D93D /* Build configuration list for PBXProject "KIDPedia" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 160BF58B1378351A0087D93D;
+			productRefGroup = 160BF5971378351A0087D93D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				160BF5951378351A0087D93D /* KIDPedia */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		160BF5941378351A0087D93D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				160BF5A51378351A0087D93D /* InfoPlist.strings in Resources */,
+				160BF5B21378351A0087D93D /* MainWindow_iPhone.xib in Resources */,
+				160BF5B91378351A0087D93D /* MainWindow_iPad.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		160BF5921378351A0087D93D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				160BF5A81378351A0087D93D /* main.m in Sources */,
+				160BF5AB1378351A0087D93D /* KIDPediaAppDelegate.m in Sources */,
+				160BF5AF1378351A0087D93D /* KIDPediaAppDelegate_iPhone.m in Sources */,
+				160BF5B61378351A0087D93D /* KIDPediaAppDelegate_iPad.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		160BF5A31378351A0087D93D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				160BF5A41378351A0087D93D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		160BF5B01378351A0087D93D /* MainWindow_iPhone.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				160BF5B11378351A0087D93D /* en */,
+			);
+			name = MainWindow_iPhone.xib;
+			sourceTree = "<group>";
+		};
+		160BF5B71378351A0087D93D /* MainWindow_iPad.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				160BF5B81378351A0087D93D /* en */,
+			);
+			name = MainWindow_iPad.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		160BF5BA1378351A0087D93D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		160BF5BB1378351A0087D93D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		160BF5BD1378351A0087D93D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "KIDPedia/KIDPedia-Prefix.pch";
+				INFOPLIST_FILE = "KIDPedia/KIDPedia-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		160BF5BE1378351A0087D93D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "KIDPedia/KIDPedia-Prefix.pch";
+				INFOPLIST_FILE = "KIDPedia/KIDPedia-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		160BF5901378351A0087D93D /* Build configuration list for PBXProject "KIDPedia" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				160BF5BA1378351A0087D93D /* Debug */,
+				160BF5BB1378351A0087D93D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		160BF5BC1378351A0087D93D /* Build configuration list for PBXNativeTarget "KIDPedia" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				160BF5BD1378351A0087D93D /* Debug */,
+				160BF5BE1378351A0087D93D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 160BF58D1378351A0087D93D /* Project object */;
+}
