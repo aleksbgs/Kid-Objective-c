@@ -1,0 +1,66 @@
+"appOldDatabaseName"="KIDPedia_v2.0.sqlite";
+"appNewDatabaseName"="KIDPedia_v1.3.sqlite";
+"appIconsName" = "%@_icon";
+"appSelectedLanguage"="English";
+"appInAppPurchaseID"="com.choosecircle.alphabet.KIDPediaFull";
+"appInAppDisplayName" = "KIDpedia Interactive Learning (English, Spanish and French)";
+"appInAppDescription" = "Update to KIDpedia Interactive Learning (English, Spanish and French) from KIDpedia Interactive Alphabet (English, Spanish and French)";
+
+//Alphabets
+"appAlphabetLetterTitle"="%@";
+"appAlphabetGraphicTitle"="graphic_%@";
+"appAlphabetSoundName"="%@";
+"appAlphabetTitleSoundName" = "sound_alphabet";
+"appAlphabetTitleImage" = "alphabetstitle.png";
+"appSunSoundName" = "sound_sun";
+"appCloudSoundName" = "sound_cloud";
+"appAlphabetGraphicSoundName"="sound_%@";
+
+//Numbers
+"appNumberBigGraphicName"="big_%@";
+"appNumberSoundName"="%@";
+"appNumbersTitleSoundName"="numbers";
+"appCountDownSoundName"="counting0to10";
+"appReverseCountDownSoundName"="countdown10to0";
+"appCheerVoiceOver"="yaay";
+"appGrpahicLibrary"="ant.png,apple.png,avocado.png,ball.png,bee.png,butterfly.png,dinosaur.png,dog.png,elephant.png,hat.png,orange.png,panda.png,piano.png,pig.png,pin.png,plane.png,shoe.png,spaceshuttle.png,strawberry.png,tractor.png,watermelon.png,zebra.png";
+"appNumbersTitleGraphicName" = "numberstitle";
+
+//Shapes
+"appShapesTitleGraphicName" = "shapestitle";
+"appShapesTitleSoundName"="shapestitle";
+"appShapeGraphicName"= "%@";
+"appShapeSoundName"="%@";
+
+//Colors
+"appColorsChalkImageName"="%@_chalk";
+"appColorsSoundName"="%@";
+"appColorsTitleSoundName" = "colors";
+"appRainbowSoundName" = "rainbow";
+"appColorsTitleImage" = "colorstitle.png";
+"appColorLibrary" = "%@_color_1.png,%@_color_2.png,%@_color_3.png,%@_color_4.png,%@_color_5.png";
+"appStarImages"="star001.png,star002.png,star003.png,star004.png,star005.png";
+"appCometImages"="comet001.png,comet002.png,comet003.png,comet004.png,comet005.png";
+
+//Animals
+"appAnimalGraphicName"="%@";
+"appAnimalSoundName"="%@";
+"appAnimalsTitleSoundName"="animals";
+"appWatermillSoundName"="watermill";
+"appFishLeftGrpahicLibrary"="fish001_left.png,fish002_left.png,fish003_left.png";
+"appFishRightGrpahicLibrary"="fish001_right.png,fish002_right.png,fish003_right.png";
+"appAnimalsTitleGraphicName" = "animalstitle";
+"iPhoneAnimalsSlideControlParameters"="{128.00,121.00};{145.00,159.00};{178.00,157.00};{206.00,183.00};{227.00,230.00}";
+"iPhoneAnimalsSlideParameters"="{137.00,141.00};{158.00,151.00};{180.00,182.00};{206.00,203.00};{264.00,220.00}";
+
+
+"iPhoneAnimalsSlideControlParameters_iPad"="{277.00,248.00};{311.00,323.00};{377.00,320.00};{433.00,372.00};{600.00,510.00}";
+"iPhoneAnimalsSlideParameters_iPad"="{295.00,283.00};{337.00,303.00};{381.00,365.00};{460.00,407.00};{580.00,510.00}";
+"appDragonFlyTotalImages"="3";
+"appDragonFlyImages"="dragonfly%d1.png,dragonfly%d2.png";
+
+
+//Fruit
+"appFruitsTitleSoundName" = "Fruits";
+"appFruitsTitleGraphicName" = "fruitstitle";
+"appFruietImageName"="fapple.png,favocado.png,fbanana.png,fblackberry.png,fblueberry.png,fcoconut.png,fgrapes.png,fkiwi.png,flemon.png,fmango.png,fmelon.png,forange.png,fpapaya.png,fpear.png,fpineapple.png,fprune.png,frasperry.png,fstrawberry.png,fmandarine.png,fwatermelon.png";

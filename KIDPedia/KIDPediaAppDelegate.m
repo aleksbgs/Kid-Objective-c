@@ -2,8 +2,8 @@
 //  KIDPediaAppDelegate.m
 //  KIDPedia
 //
-//  Created by Jignesh  Brahmkhatri on 09/05/11.
-//  Copyright 2011 imobdev Technologies. All rights reserved.
+//  Created by Acai on 09/05/11.
+//  Copyright 2011 Aca Technologies. All rights reserved.
 //
 
 #import "KIDPediaAppDelegate.h"
